@@ -1,0 +1,41 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scipy>=1.10.0
+opencv-python>=4.7.0
+pillow>=9.5.0
+
+# Detection & 3D
+ultralytics>=8.0.0
+mmdet>=3.0.0
+open3d>=0.17.0
+pytorch3d>=0.7.4
+
+# Data processing
+pyquaternion>=0.9.9
+transforms3d>=0.0.1
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+
+# Transformer / DL
+transformers>=4.30.0
+einops>=0.6.1
+xformers>=0.0.20
+
+# Visualization
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# Dataset APIs
+pyarrow>=12.0.0
+h5py>=3.8.0
+numpyencoder>=0.3.0
+
+# Planning/Control
+cybervehicle-cubic-spline>=1.0.1
+
+# Simulation (CARLA) might need manual install
+# carla client is available from https://github.com/carla-simulator/carla

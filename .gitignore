@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data & datasets
+data/*.zip
+data/*.tar
+data/*.tar.gz
+data/dataset/
+# Large point cloud files
+*.pcd
+*.bin
+*.ply
+
+# Experiments & logs
+experiments/*/
+!experiments/.gitkeep
+runs/
+logs/
+*.log
+tensorboard/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# CUDA
+*.cuda
+*.ptx
+
+# Model checkpoints
+checkpoints/
+weights/
+*.pth
+*.pt
+*.bin
+
+# OS
+Thumbs.db
